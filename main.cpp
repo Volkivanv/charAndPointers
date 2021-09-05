@@ -9,8 +9,6 @@ bool substr(char* x,char* y){
        while(*(x + i + j) == * (y + j) ){
            ++j;
            if (*(y + j) == '\0') return true;
-
-
        }
        ++i;
 
